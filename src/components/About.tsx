@@ -56,7 +56,7 @@ const About = () => {
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-islamic-gold/40 to-islamic-burgundy/30 blur-2xl opacity-60" />
             <div className="relative rounded-3xl overflow-hidden border-2 border-islamic-gold/40 shadow-elegant bg-white p-4">
               <img
-                src="src/assets/certificate.png"
+                src="certificate.png"
                 alt="Noor Mehndi Certificate of Achievement - Muhammad Sufiya, Online Basic to Bridal Course"
                 className="w-full h-auto object-contain"
                 loading="lazy"
