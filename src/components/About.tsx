@@ -49,20 +49,21 @@ const About = () => {
           </div>
         </div>
 
-        {/* Two-column heritage story */}
+        {/* Two-column with Certificate Image */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-6xl mx-auto mb-20">
+          {/* Certificate Image - Replace this path with your actual image path */}
           <div className="relative animate-slideInLeft">
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-islamic-gold/40 to-islamic-burgundy/30 blur-2xl opacity-60" />
-            <div className="relative rounded-3xl overflow-hidden border-2 border-islamic-gold/40 shadow-elegant">
+            <div className="relative rounded-3xl overflow-hidden border-2 border-islamic-gold/40 shadow-elegant bg-white p-4">
               <img
-                src="https://images.unsplash.com/photo-1610117048930-ff5092976aaa?q=80&w=1200"
-                alt="Royal bridal mehendi artistry"
-                className="w-full h-[500px] object-cover"
+                src="src/assets/certificate.png"
+                alt="Noor Mehndi Certificate of Achievement - Muhammad Sufiya, Online Basic to Bridal Course"
+                className="w-full h-auto object-contain"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-islamic-burgundy/60 via-transparent to-transparent" />
-              <div className="absolute bottom-6 left-6 right-6 text-islamic-cream">
-                <p className="font-cursive text-3xl">Heritage. Romance. Royalty.</p>
+              {/* Optional: Badge overlay */}
+              <div className="absolute top-4 right-4 bg-islamic-gold/90 text-islamic-burgundy text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                Certified ✓
               </div>
             </div>
           </div>
