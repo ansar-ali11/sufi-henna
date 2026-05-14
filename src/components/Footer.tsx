@@ -83,7 +83,7 @@ const Footer = () => {
             </ul>
             <div className="flex gap-3 justify-center md:justify-end mt-5">
               <a
-                href="https://www.instagram.com/sufi_mehendi_86"
+                href="https://www.instagram.com/sufi_mehendi86"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -111,7 +111,7 @@ const Footer = () => {
 
       {/* Floating Instagram */}
       <a
-        href="https://www.instagram.com/sufi_mehendi_86"
+        href="https://www.instagram.com/sufi_mehendi86"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-gradient-to-br from-islamic-burgundy via-islamic-gold to-islamic-teal-dark p-[2px] shadow-2xl z-50 hover:scale-110 transition-transform duration-300 animate-float"
